@@ -1,0 +1,38 @@
+{
+  "name": "youtube-inspired-backend",
+  "version": "1.0.0",
+  "description": "a project inspired by youtube",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0ManasVerma0/youtube-inspired-backend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoose",
+    "express",
+    "backend"
+  ],
+  "author": "Manas verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0ManasVerma0/youtube-inspired-backend/issues"
+  },
+  "homepage": "https://github.com/0ManasVerma0/youtube-inspired-backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  }
+}
